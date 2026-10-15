@@ -1,0 +1,6 @@
+{
+  "name": "LinguaJunior Pro - Enterprise Multilingual Learning System",
+  "description": "Mobile-first multilingual language learning system with 10 core categories, 90-day mastery progression, live speech recognition, colloquial dialogues, and comprehensive exam gating.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
+  },
+  "include": [
+    "src/vite-env.d.ts",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/components/Header.tsx",
+    "src/components/HeroLanding.tsx",
+    "src/components/LearningHub.tsx",
+    "src/components/PracticeRoom.tsx",
+    "src/components/PreferencesModal.tsx",
+    "src/components/RewardsModal.tsx",
+    "src/components/VideoModal.tsx",
+    "src/components/ExamModal.tsx",
+    "src/types/**/*",
+    "src/utils/audio.ts",
+    "src/data/topics.ts",
+    "src/data/languages.ts"
+  ]
+}
